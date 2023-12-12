@@ -2,8 +2,9 @@
     display: flex;
     flex-direction: column;
     margin: auto;
+    width: 600px;
     margin-top: 200px;
-    background: white;
+    background:white;
     padding: 30px;
 
 }
@@ -27,3 +28,50 @@
     background: blueviolet;
     border-radius: 9px;
 }
+.inputs{
+    margin-top: 55px;
+    display: flex;
+    flex-direction: column;
+    gap:25px;
+}
+.input{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 480px;
+    height: 80px;
+    border-radius: 6px;
+}
+.input img{
+    margin: opx 30px;
+}
+ .input input{
+    height: 50px;
+    width: 400px;
+    background: transparent;
+    border: none;
+    outline:none;
+    font-size: 19px;
+    background: #c9c4c4;;
+
+ }
+ .forgot-password{
+    padding-left: 62px;
+    margin-top: 27px;
+    color: blueviolet;
+    font-size: medium;
+
+ }
+ .submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 59px;
+    color:#fff;
+    background:blueviolet;
+    border-radius: 50px;
+    font-size:19px ;
+    font-weight: 700;
+    cursor: pointer;
+ }
