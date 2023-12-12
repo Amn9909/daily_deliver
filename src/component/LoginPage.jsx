@@ -4,7 +4,10 @@ import "./Login.css";
 
 const LoginPage = () => {
   const [action] = useState("signup");
-  const handleOnChange = () => {
+  const handleOnChange = (event) => {
+    console.log('this is event ', event)
+    const value = event.target.value;
+    console.log('this is value ', value)
     console.log("working");
   };
   return (
@@ -19,7 +22,7 @@ const LoginPage = () => {
         </div>
       </div>
       <div className="inputs">
-        <div className="input" onChange={handleOnChange}>
+        <div className="input" onChange={(event)=>handleOnChange(event)}>
           <input type="Email" placeholder="email" />
         </div>
       </div>
